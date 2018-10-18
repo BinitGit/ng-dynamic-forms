@@ -23,6 +23,7 @@ export class DynamicNGBootstrapInputComponent extends DynamicFormControlComponen
     @Output() blur: EventEmitter<any> = new EventEmitter();
     @Output() change: EventEmitter<any> = new EventEmitter();
     @Output() focus: EventEmitter<any> = new EventEmitter();
+    @Output() click: EventEmitter<any> = new EventEmitter();
 
     constructor(protected layoutService: DynamicFormLayoutService,
                 protected validationService: DynamicFormValidationService) {

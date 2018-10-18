@@ -31,7 +31,8 @@
            [type]="model.inputType"
            (blur)="onBlur($event)"
            (change)="onChange($event)"
-           (focus)="onFocus($event)"/>
+           (focus)="onFocus($event)"
+           (click)="onClick($event)"/>
 
     <div *ngIf="model.suffix" class="input-group-append">
         <span class="input-group-text" [innerHTML]="model.suffix"></span>

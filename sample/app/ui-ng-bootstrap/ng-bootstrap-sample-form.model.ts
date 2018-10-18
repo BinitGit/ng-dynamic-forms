@@ -74,7 +74,7 @@ export const NG_BOOTSTRAP_SAMPLE_FORM_MODEL: DynamicFormControlModel[] = [
             new DynamicInputModel({
 
                 id: "roomQuantity",
-                inputType: "number",
+                inputType: "button",
                 label: "Quantity",
                 placeholder: "Quantity",
                 hint: "Maximum: 5",
